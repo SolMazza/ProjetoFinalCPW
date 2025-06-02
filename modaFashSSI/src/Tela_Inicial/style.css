@@ -1,4 +1,12 @@
 @font-face {
+      font-family: 'Railey';
+    src: url('Railey-PersonalUse.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
     font-family: 'Railey';
-    src: url('Railey-Per');
+    display: flex;
+    align-items: center;
 }

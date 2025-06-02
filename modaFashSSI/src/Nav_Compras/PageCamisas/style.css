@@ -1,4 +1,83 @@
-@font-face {
-    font-family: 'Railey';
-    src: url('Railey-Per');
-}
+ :root {
+     --cor-bege: #ebe5b2;
+     --cor-verde: #5b8d6b;
+     --cor-laranja: #f8a348;
+     --cor-laranjaEscuro: #e15244;
+
+ }
+
+ body {
+     background-color: var(--cor-bege);
+ }
+
+ #titulo {
+     margin: 0;
+ }
+
+ header {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ #cabecalho {
+     display: flex;
+     gap: 10px;
+
+ }
+
+ #logo {
+     width: 5vw;
+
+ }
+
+ #blocoDaPesquisa {
+
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: var(--cor-verde);
+     border: 3px solid black;
+     border-radius: 50px;
+     width: 80vw;
+     height: 35px;
+     margin-bottom: 25px;
+ }
+
+ #pesquisa {
+     background-color: var(--cor-bege);
+     border: 2px solid var(--cor-laranjaEscuro);
+     border-radius: 45px;
+     width: 70vw;
+     height: 25px;
+ }
+
+ #pesquisa::placeholder {
+     padding-left: 10px;
+     color: var(--cor-verde);
+ }
+
+
+ .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+ }
+
+ .fundo_camisa {
+     flex: 1 1 25vw;
+     transition: 0.5s;
+     cursor: pointer;
+     background-color: white;
+     max-width: 25vw;
+     height: 200px;
+     float: left;
+     border-radius: 20px
+     
+ }
+
+ .container:hover> :not(:hover) {
+     opacity: .4;
+     transform: scale(0.9);
+ }

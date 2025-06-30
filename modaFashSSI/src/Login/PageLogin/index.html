@@ -1,11 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>MODAFASH</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <a id='JgrlsEEdR6tL7wIyHxQODw' class='gie-slideshow' href='http://www.gettyimages.com/detail/2063984439' target='_blank' style='color:#a7a7a7;text-decoration:none;font-weight:normal !important;border:none;display:inline-block;'>Embed from Getty Images</a><script>window.gie=window.gie||function(c){(gie.q=gie.q||[]).push(c)};gie(function(){gie.widgets.load({id:'JgrlsEEdR6tL7wIyHxQODw',sig:'fURFlcJmeD4oMxGya5a9QWtuk0UahUh7W_0-wkCjaHc=',w:'510px',h:'337px',items:'2063984439,1938168722',caption: true ,tld:'com',is360: false })});</script><script src='//embed-cdn.gettyimages.com/widgets.js' charset='utf-8' async></script>
+    <main class="container">
+        <section class="formularioContainer" id="FormularioLogin">
+            <img class="logo" id="logoLogin" src="../../../public/Logo.png" alt="Logo">
+            <form class="formulario" id="loginForm">
+                <h1>Login</h1>
+
+                <div id="errorMessage" class="error-message" style="display: none;"></div>
+
+                <label for="email">E-mail</label>
+                <input id="email" class="inputAccount" placeholder="usuario@gmail.com" type="email" required />
+            </form>
+        </section>
+
+        <button id="BotaoEntrar" onclick= " window.location.href= `../../Tela_Inicial/index.html`">Entrar</button>
+    </main>
+
+    <footer>
+        <h3> - Obrigada - Pela Preferência - </h3>
+        <p>Endereço: Rua Coronel Vicente, 281</p>
+        <p>Contato: (51) 9.8993-1479</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
+
 </html>

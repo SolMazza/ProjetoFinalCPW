@@ -63,7 +63,7 @@ body {
     justify-content: space-around;
 }
 
-.fundo_camisa {
+.fundo_calcado {
     background-color: var(--cor-cinza);
     float: left;
     position: relative;
@@ -92,7 +92,7 @@ body {
     border-radius: 15px;
 }
 
-.fundo_camisa:hover {
+.fundo_calcado:hover {
     transform: scale(1.1);
 }
 
@@ -155,13 +155,13 @@ header {
         padding: 10px;
     }
 
-    .fundo_camisa {
+    .fundo_calcado {
         flex: 1 1 80vw;
         max-width: 80vw;
         height: 250px;
     }
 
-    .camisas {
+    .calcados {
         min-width: 180px;
         width: 60vw;
     }
@@ -216,13 +216,13 @@ header {
         padding: 15px;
     }
 
-    .fundo_camisa {
+    .fundo_calcado {
         flex: 1 1 40vw;
         max-width: 40vw;
         height: 270px;
     }
 
-    .camisas {
+    .calcados {
         min-width: 190px;
         width: 35vw;
     }
@@ -269,13 +269,13 @@ header {
         gap: 20px;
     }
 
-    .fundo_camisa {
+    .fundo_calcado {
         flex: 1 1 25vw;
         max-width: 25vw;
         height: 300px;
     }
 
-    .camisas {
+    .calcados {
         min-width: 210px;
         width: 20dvw;
     }

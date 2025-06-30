@@ -1,4 +1,293 @@
-@font-face {
-    font-family: 'Railey';
-    src: url('Railey-Per');
+:root {
+    --cor-bege: #ebe5b2;
+    --cor-verde: #5b8d6b;
+    --cor-laranja: #f8a348;
+    --cor-laranjaEscuro: #e15244;
+    --cor-verdeClaro: #7bac8a;
+    --cor-cinza: #b5a28b;
+    --cor-borda: #000000;
 }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Script&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+footer{
+    border: 2px solid var(--cor-borda);
+    margin-top: 20px;
+    height: 80px;
+    background-color: var(--cor-verdeClaro);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+body {
+    background-color: var(--cor-bege);
+    font-family: "Luxurious Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    overflow-x: hidden;
+}
+
+
+#blocoDaPesquisa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-verde);
+    border: 3px solid var(--cor-borda);
+    border-radius: 50px;
+    padding: 5px;
+}
+
+#pesquisa {
+    background-color: #faf6d4;
+    border: 2px solid var(--cor-laranjaEscuro);
+    border-radius: 45px;
+}
+
+#pesquisa::placeholder {
+    padding-left: 10px;
+    color: var(--cor-laranjaEscuro);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.fundo_vestido {
+    background-color: var(--cor-cinza);
+    float: left;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--cor-borda);
+    border-radius: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.fundo_imagem {
+    display: flex;
+    justify-content: center;
+    background-color: var(--cor-verdeClaro);
+    border: 2px solid var(--cor-borda);
+    border-radius: 20px;
+}
+
+.espaco_preco {
+    position: absolute;
+    bottom: 7%;
+    background-color: var(--cor-bege);
+    border: 2px solid var(--cor-borda);
+    border-radius: 15px;
+}
+
+.fundo_vestido:hover {
+    transform: scale(1.1);
+}
+
+.preco {
+    margin: 0;
+    padding: 1vw;
+}
+
+body {
+    background-color: var(--cor-bege);
+}
+
+#titulo {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+@media (max-width: 499px) {
+
+
+
+
+    #cabecalho {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        width: 100%;
+    }
+
+    #logo {
+        width: 200px;
+        position: absolute;
+        top: -10px;
+        left: -50px;
+        cursor: pointer;
+        padding: 0;
+        margin: 0;
+    }
+
+    #blocoDaPesquisa {
+        width: 90vw;
+        height: 35px;
+        margin-bottom: 15px;
+    }
+
+    #pesquisa {
+        width: 80vw;
+        height: 25px;
+    }
+
+    .container {
+        gap: 15px;
+        padding: 10px;
+    }
+
+    .fundo_vestido {
+        flex: 1 1 80vw;
+        max-width: 80vw;
+        height: 250px;
+    }
+
+    .vestidos {
+        min-width: 180px;
+        width: 60vw;
+    }
+
+    .fundo_imagem {
+        width: 70vw;
+        height: 150px;
+    }
+
+    .preco {
+        font-size: 3dvh;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 759px) {
+
+    #titulo{
+        font-size: 70px;
+    }
+
+
+    #cabecalho {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    #logo {
+        width: 200px;
+        position: absolute;
+        top: -10px;
+        left: -50px;
+        cursor: pointer;
+        padding: 0;
+        margin: 0;
+    }
+
+    #blocoDaPesquisa {
+        width: 85vw;
+        height: 38px;
+        margin-bottom: 20px;
+    }
+
+    #pesquisa {
+        width: 75vw;
+        height: 28px;
+    }
+
+    .container {
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .fundo_vestido {
+        flex: 1 1 40vw;
+        max-width: 40vw;
+        height: 270px;
+    }
+
+    .vestidos {
+        min-width: 190px;
+        width: 35vw;
+    }
+
+    .fundo_imagem {
+        width: 38vw;
+        height: 200px;
+    }
+
+    .preco {
+        font-size: 3.5dvh;
+    }
+}
+
+@media (min-width: 760px) {
+    #cabecalho {
+        display: flex;
+        gap: 10px;
+        position: relative;
+    }
+
+    #logo {
+        width: 200px;
+        position: absolute;
+        top: -30px;
+        left: -150px;
+        cursor: pointer;
+        padding: 0;
+        margin: 0;
+    }
+
+    #blocoDaPesquisa {
+        width: 80vw;
+        height: 40px;
+        margin-bottom: 25px;
+    }
+
+    #pesquisa {
+        width: 70vw;
+        height: 30px;
+    }
+
+    .container {
+        gap: 20px;
+    }
+
+    .fundo_vestido {
+        flex: 1 1 25vw;
+        max-width: 25vw;
+        height: 300px;
+    }
+
+    .vestidos {
+        min-width: 210px;
+        width: 20dvw;
+    }
+
+    .fundo_imagem {
+        width: 20vw;
+        height: 220px;
+    }
+
+    .preco {
+        font-size: 4dvh;
+    }
+}
+

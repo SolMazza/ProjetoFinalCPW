@@ -4,28 +4,28 @@ const produtos = [
         imagem: "../../../public/vestidos/vestidomorango.png",
         alt: "imagem de um vestido",
         nome: "VESTIDOS",
-        href: "../Nav_Compras/PageVestidos/index.html"
+        href: "../Nav_Compras/PageVestidos/vestidos.html"
     },
     {
         id: "produto2",
         imagem: "../../../public/calcas/calcarosa.png",
         alt: "imagem de uma calça",
         nome: "CALÇAS",
-        href: "../Nav_Compras/PageCalcas/index.html"
+        href: "../Nav_Compras/PageCalcas/calcas.html"
     },
     {
         id: "produto3",
         imagem: "../../../public/camisa-3.png",
         alt: "imagem de uma camisa branca com texto escrito em preto e rosa",
         nome: "CAMISAS",
-        href: "../Nav_Compras/PageCamisas/index.html"
+        href: "../Nav_Compras/PageCamisas/camisas.html"
     },
     {
         id: "produto4",
         imagem: "../../public/calcados/calcado1.png",
         alt: "imagem de um calçado",
         nome: "CALÇADOS",
-        href: "../Nav_Compras/PageCalcados/index.html"
+        href: "../Nav_Compras/PageCalcados/calcados.html"
     }
 ];
 

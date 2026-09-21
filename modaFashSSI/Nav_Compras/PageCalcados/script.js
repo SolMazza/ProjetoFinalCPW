@@ -1,37 +1,37 @@
 const calcados = [
     {
         id: "calcado1",
-        imagem: "../../../public/calcados/calcado1.png",
+        imagem: "../../public/calcados/calcado1.png",
         alt: "imagem de uma calcado preta com detalhes em rosa",
         preco: 137.90
     },
     {
         id: "calcado2",
-        imagem: "../../../public/calcados/calcado2.png",
+        imagem: "../../public/calcados/calcado2.png",
         alt: "imagem de uma calcado branca com elementos de grafite rosa e verde",
         preco: 134.90
     },
     {
         id: "calcado3",
-        imagem: "../../../public/calcados/calcado3.png",
+        imagem: "../../public/calcados/calcado3.png",
         alt: "imagem de uma calcado branca com texto escrito em preto e rosa",
         preco: 451.90
     },
     {
         id: "calcado4",
-        imagem: "../../../public/calcados/calcado4.png",
+        imagem: "../../public/calcados/calcado4.png",
         alt: "imagem de uma calcado inteiramente branca",
         preco: 561.90
     },
     {
         id: "calcado5",
-        imagem: "../../../public/calcados/calcado5.png",
+        imagem: "../../public/calcados/calcado5.png",
         alt: "imagem de uma calcado laranja",
         preco: 331.90
     },
     {   
         id: "calcado6",
-        imagem: "../../../public/calcados/calcado6.png",
+        imagem: "../../public/calcados/calcado6.png",
         alt: "imagem de uma calcado",
         preco: 402.90
     }

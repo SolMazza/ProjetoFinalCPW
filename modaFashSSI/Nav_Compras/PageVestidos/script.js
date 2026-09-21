@@ -1,37 +1,37 @@
 const vestidos = [
     {
         id: "vestido1",
-        imagem: "../../../public/vestidos/vestidoamarelo.png",
+        imagem: "../../public/vestidos/vestidoamarelo.png",
         alt: "imagem de um vestido ",
         preco: 37.90
     },
     {
         id: "vestido2",
-        imagem: "../../../public/vestidos/vestidomorango.png",
+        imagem: "../../public/vestidos/vestidomorango.png",
         alt: "imagem de um vestido",
         preco: 80.90
     },
     {
         id: "vestido3",
-        imagem: "../../../public/vestidos/vestidobranco.png",
+        imagem: "../../public/vestidos/vestidobranco.png",
         alt: "imagem de um vestido",
         preco: 45.90
     },
     {
         id: "vestido4",
-        imagem: "../../../public/vestidos/vestidobranco2.png",
+        imagem: "../../public/vestidos/vestidobranco2.png",
         alt: "imagem de um vestido",
         preco: 56.90
     },
     {
         id: "vestido5",
-        imagem: "../../../public/vestidos/vestidocinza.png",
+        imagem: "../../public/vestidos/vestidocinza.png",
         alt: "imagem de um vestido",
         preco: 22.90
     },
     {   
         id: "vestido6",
-        imagem: "../../../public/vestidos/vestidoverde.png",
+        imagem: "../../public/vestidos/vestidoverde.png",
         alt: "imagem de um vestido",
         preco: 40.92
     }

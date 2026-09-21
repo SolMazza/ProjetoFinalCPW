@@ -25,50 +25,50 @@
 
 
 .fundo_produto {
-        background-color: var(--cor-cinza);
-        float: left;
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border: 2px solid var(--cor-borda);
-        border-radius: 20px;
-        transition: 0.5s;
-    }
+    background-color: var(--cor-cinza);
+    float: left;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--cor-borda);
+    border-radius: 20px;
+    transition: 0.5s;
+}
 
-    .fundo_imagem {
-        display: flex;
-        justify-content: center;
-        background-color: var(--cor-verdeClaro);
-        border: 2px solid var(--cor-borda);
-        border-radius: 20px;
-        
-    }
+.fundo_imagem {
+    display: flex;
+    justify-content: center;
+    background-color: var(--cor-verdeClaro);
+    border: 2px solid var(--cor-borda);
+    border-radius: 20px;
 
-    .espaco_nome {
-        position: absolute;
-        bottom: 1%;
-        background-color: var(--cor-bege);
-        border: 2px solid var(--cor-borda);
-        border-radius: 10px;
-        cursor: pointer;
-    }
+}
 
-    .nome {
-        margin: 0;
-        padding: 1vw;
-        font-size: 2dvh;
-    }
+.espaco_nome {
+    position: absolute;
+    bottom: 1%;
+    background-color: var(--cor-bege);
+    border: 2px solid var(--cor-borda);
+    border-radius: 10px;
+    cursor: pointer;
+}
 
-    .fundo_produto:hover {
-        transform: scale(1.1);
-    }
+.nome {
+    margin: 0;
+    padding: 1vw;
+    font-size: 2dvh;
+}
 
-    #Produtos {
-        margin: 0;
-        padding: 0;
-        position: absolute;
-    }
+.fundo_produto:hover {
+    transform: scale(1.1);
+}
+
+#Produtos {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
 
 
 
@@ -135,7 +135,7 @@ body {
 #elementosVisuais {
     width: 100vw;
     height: 250px;
-    background-image: url("../../public/mobileart.png");
+    background-image: url("public/mobileart.png");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -143,7 +143,7 @@ body {
 
 @media (min-width: 600px) {
     #elementosVisuais {
-        background-image: url("../../public/tela70art.png");
+        background-image: url("public/tela70art.png");
         top: -90px;
         margin-bottom: 90px;
         height: 450px;
@@ -177,8 +177,8 @@ body {
         display: block;
         position: absolute;
         width: 60%;
-        height: 2px;
-        background: var(--cor-laranja);
+        height: 5px;
+        background-color: var(--cor-laranjaEscuro);
     }
 
     #linha1 {
@@ -197,8 +197,8 @@ body {
         display: block;
         position: absolute;
         width: 40%;
-        height: 2px;
-        background: var(--cor-verde);
+        height: 5px;
+        background-color: var(--cor-verde);
     }
 
     #linha1Down {
@@ -228,37 +228,37 @@ body {
         margin: 0;
     }
 
-    
-.fundo_produto {
-    flex: 1 1 20vw;
-    max-width: 20vw;
-    height: 150px;
-}
 
-.fundo_imagem {
-    width: 15vw;
-    height: 110px;
-}
-
-.nome {
-    font-size: 3dvh;
+    .fundo_produto {
+        flex: 1 1 20vw;
+        max-width: 20vw;
+        height: 150px;
     }
 
-#Produtos{
+    .fundo_imagem {
+        width: 15vw;
+        height: 110px;
+    }
+
+    .nome {
+        font-size: 3dvh;
+    }
+
+    #Produtos {
         font-size: 19px;
         top: 50%;
         left: 41%;
     }
 
     #produtos-container {
-    margin-top: -290px; 
-}
+        margin-top: -290px;
+    }
 }
 
 
 @media (min-width: 700px) {
     #elementosVisuais {
-        background-image: url("../../public/tela80art.png");
+        background-image: url("public/tela80art.png");
         top: -90px;
         margin-bottom: 90px;
         height: 450px;
@@ -316,67 +316,65 @@ body {
         margin: 0;
     }
 
-       
-
-.fundo_produto {
-    flex: 1 1 20vw;
-    max-width: 20vw;
-    height: 170px;
-}
-
-.fundo_imagem {
-    width: 15vw;
-    height: 120px;
-}
-
-.nome {
-    font-size: 3dvh;
+    .fundo_produto {
+        flex: 1 1 20vw;
+        max-width: 20vw;
+        height: 170px;
     }
 
-#Produtos{
+    .fundo_imagem {
+        width: 15vw;
+        height: 120px;
+    }
+
+    .nome {
+        font-size: 3dvh;
+    }
+
+    #Produtos {
         font-size: 22px;
         top: 55%;
         left: 41%;
     }
 
     #produtos-container {
-    margin-top: -270px; 
-}
-}
-
-
-@media(min-width: 800px){
-    
-.fundo_produto {
-    flex: 1 1 20vw;
-    max-width: 20vw;
-    height: 180px;
+        margin-top: -270px;
+    }
 }
 
-.fundo_imagem {
-    width: 15vw;
-    height: 140px;
-}
 
-.nome {
-    font-size: 3dvh;
+@media(min-width: 800px) {
+
+    .fundo_produto {
+        flex: 1 1 20vw;
+        max-width: 20vw;
+        height: 180px;
     }
 
-#Produtos{
+    .fundo_imagem {
+        width: 15vw;
+        height: 140px;
+    }
+
+    .nome {
+        font-size: 3dvh;
+    }
+
+    #Produtos {
         font-size: 25px;
         top: 55%;
         left: 41%;
     }
 
     #produtos-container {
-    margin-top: -275px; 
-}
+        margin-top: -275px;
+    }
 }
 
 
 @media (min-width: 900px) {
     #elementosVisuais {
-        background-image: url("../../public/tela80art.png");
+        background-image: url("public/tela80art.png");
         top: -100px;
         margin-bottom: 100px;
         height: 500px;
@@ -395,8 +393,7 @@ body {
         display: block;
         position: absolute;
         width: 60%;
-        height: 2px;
-        background: var(--cor-laranja);
+        height: 5px;
     }
 
     #linha1 {
@@ -456,38 +453,38 @@ body {
         margin: 0;
     }
 
-    
 
-.fundo_produto {
-    flex: 1 1 20vw;
-    max-width: 20vw;
-    height: 190px;
-}
 
-.fundo_imagem {
-    width: 15vw;
-    height: 160px;
-}
-
-.nome {
-    font-size: 3dvh;
+    .fundo_produto {
+        flex: 1 1 20vw;
+        max-width: 20vw;
+        height: 190px;
     }
 
-#Produtos{
+    .fundo_imagem {
+        width: 15vw;
+        height: 160px;
+    }
+
+    .nome {
+        font-size: 3dvh;
+    }
+
+    #Produtos {
         font-size: 28px;
         top: 65%;
         left: 42%;
     }
 
     #produtos-container {
-    margin-top: -280px; 
-}
+        margin-top: -280px;
+    }
 }
 
 
 @media (min-width: 1150px) {
     #elementosVisuais {
-        background-image: url("../../public/tela90art.png");
+        background-image: url("public/tela90art.png");
         top: -130px;
         left: 10px;
         margin-bottom: 130px;
@@ -519,8 +516,7 @@ body {
         display: block;
         position: absolute;
         width: 60%;
-        height: 2px;
-        background: var(--cor-laranja);
+        height: 5px;
     }
 
     #linha1 {
@@ -574,7 +570,7 @@ body {
     }
 
     .fundo_produto {
-      
+
         flex: 1 1 20vw;
         max-width: 20vw;
         height: 200px;
@@ -605,7 +601,7 @@ body {
         margin-bottom: 100px;
         left: 0px;
         height: 600px;
-        background-image: url("../../public/telacheiaart.png");
+        background-image: url("public/telacheiaart.png");
     }
 
     #produtos-container {
@@ -613,6 +609,7 @@ body {
     }
 
     #Produtos {
+        position: absolute;
         font-size: 30px;
         top: 80%;
         left: 43%;
@@ -628,8 +625,7 @@ body {
         display: block;
         position: absolute;
         width: 40%;
-        height: 2px;
-        background: var(--cor-verde);
+        height: 5px;
     }
 
 
@@ -660,6 +656,97 @@ body {
     .fundo_imagem {
         width: 15vw;
         height: 180px;
+    }
+
+}
+
+
+@media (min-width: 1400px) {
+    #elementosVisuais {
+        top: -4vh;
+        margin-bottom: 8dvh;
+        left: 0px;
+        height: 600px;
+        background-image: url("public/telacheiaart.png");
+
+    }
+
+    #CorpoDoSite {
+        position: relative;
+    }
+
+    #produtos-container {
+        margin-top: -100px;
+    }
+
+    #Produtos {
+
+        position: absolute;
+        font-size: 2.5rem;
+        top: 55%;
+        left: 42%;
+    }
+
+    .navMenuInicial {
+        width: 95px;
+    }
+
+    #logo {
+        margin-top: 20px;
+        width: 160px;
+    }
+
+    #navegacaoCabecario {
+        right: 35px;
+        top: 40%;
+    }
+
+    #titulo {
+
+        top: 40%;
+        font-size: 4.8rem;
+        left: 5dvw;
+    }
+
+
+    .linhas {
+        display: block;
+        position: absolute;
+        width: 60%;
+        height: 5px;
+        background-color: var(--cor-laranja);
+    }
+
+    #linha1 {
+        top: 15%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #linha2 {
+        top: 70%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .linhasDown {
+        display: block;
+        position: absolute;
+        width: 40%;
+        height: 5px;
+        background-color: var(--cor-verde);
+    }
+
+    #linha1Down {
+        top: 60%;
+    }
+
+    #linha2Down {
+        top: 60%;
+    }
+
+    .navMenuInicial {
+        width: 120px;
     }
 
 }

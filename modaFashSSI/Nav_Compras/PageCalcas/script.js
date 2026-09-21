@@ -1,31 +1,31 @@
 const calcas = [
     {
         id: "calca1",
-        imagem: "../../../public/calcas/calcaestrelasjeans.png",
+        imagem: "../../public/calcas/calcaestrelasjeans.png",
         alt: "imagem de uma calca preta com detalhes em rosa",
         preco: 37.90
     },
     {
         id: "calca2",
-        imagem: "../../../public/calcas/calcajeans.png",
+        imagem: "../../public/calcas/calcajeans.png",
         alt: "imagem de uma calca branca com elementos de grafite rosa e verde",
         preco: 34.90
     },
     {
         id: "calca3",
-        imagem: "../../../public/calcas/calcarosa.png",
+        imagem: "../../public/calcas/calcarosa.png",
         alt: "imagem de uma calca branca com texto escrito em preto e rosa",
         preco: 45.90
     },
     {
         id: "calca4",
-        imagem: "../../../public/calcas/calca4.png",
+        imagem: "../../public/calcas/calca4.png",
         alt: "imagem de uma calca inteiramente branca",
         preco: 561.90
     },
     {
         id: "calca5",
-        imagem: "../../../public/calcas/calca5.png",
+        imagem: "../../public/calcas/calca5.png",
         alt: "imagem de uma calca laranja",
         preco: 323.90
     }
